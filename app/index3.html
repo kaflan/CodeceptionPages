@@ -112,11 +112,93 @@
     <aside class="col-sm-10 header-codeception passing-message">
       <h1>Codeception Test Runner</h1>
     </aside>
+    <aside class="col-sm-10">
+      <table class="table table-condensed">
+        <thead>
+          <th>
+            <label  for="AceppteTest">
+              Acepptence Test
+            </label>
+            <input type="checkbox" id="AceppteTest">
+            <span class="caret"></span>
+          </th>
+        </thead>
+        <tbody>
+          <tr >
+              <td>
+                <label>
+                      <input type="checkbox"> User can login
+                </label>
+              </td>
+              <td>
+                UserCest::Login
+              </td>
+          </tr>
+          <tr class='active'>
+              <td>
+                <label>
+                      <input type="checkbox"> User can log out
+                </label>
+              </td>
+              <td>
+                UserCest::Logout
+              </td>
+          </tr>
+          <tr >
+              <td>
+                <label>
+                      <input type="checkbox"> Admin can create post
+                </label>
+              </td>
+              <td>
+                AdminCest::createPost
+              </td>
+          </tr>
+          <tr class='active'>
+              <td>
+                <label>
+                      <input type="checkbox"> Admin can delete post
+                </label>
+              </td>
+              <td>
+                AdminCest::deletePost
+              </td>
+          </tr>
+          <tr >
+              <td>
+                <label>
+                      <input type="checkbox"> Admin can update post
+                </label>
+              </td>
+              <td>
+                AdminCest::updatePost
+              </td>
+          </tr>
+          <tr class='active'>
+              <td>
+                <label>
+                      <input type="checkbox"> User can login to site
+                </label>
+              </td>
+              <td>
+                UserCest::Login
+              </td>
+          </tr>
+        </tbody>
+      </table>
+    </aside>
+    <aside class="col-sm-10">
+      <h2>Functional test</h2>
+    </aside>
+    <aside class="col-sm-10">
+      <h2>Unit test</h2>
+    </aside>
   </main>
   <!-- build:js(.) scripts/vendor.js -->
   <!-- bower:js -->
   <script src="/bower_components/modernizr/modernizr.js"></script>
   <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/d3/d3.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
   <!-- build:js(.) scripts/plugins.js <--></-->

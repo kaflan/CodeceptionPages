@@ -1,6 +1,8 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
 // endbower
 /* {
     color: #2c3e50;
@@ -12,44 +14,67 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
     color: #ecf0f1;
 }
 */
-body, html {
-    width: 100%;
-    height: 100%;
+.arc path {
+    stroke: #000;
 }
+.sircle {
+  margin-top: 60%;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 .height {
-    min-height: 100%;
+  min-height: 100%;
 }
+
 .form-horizontal .control-label {
-    text-align: left;
-  }
-.form-codeception{
   text-align: left;
-  color:#ecf0f1;
+}
+
+.form-codeception {
+  text-align: left;
+  color: #ecf0f1;
   background: #2c3e50;
 }
 
 .form-group-codeception {
-    margin-top: 25%;
+  margin-top: 25%;
 }
-.btn-run{
+
+.btn-run {
   background-color: #8e44ad;
 }
-.header-codeception{
+
+.header-codeception {
   background-color: #27ae60;
 }
-.debag{
-  color: #2980b9;;
+
+.debag {
+  color: #2980b9;
 }
+
 .nav-codeception {
   background-color: #2980b9;
 }
+
 .pass-message {
+  font-size: 30px;
+  text-align: center;
   color: #27ae60;
 }
+
 .err-message {
+  font-size: 30px;
+  text-align: center;
   color: #e74c3c;
 }
-.passing-message{
+
+.passing-message {
+  font-size: 30px;
   color: #ecf0f1;
   text-align: center;
 }
